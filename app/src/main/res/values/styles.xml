@@ -13,5 +13,11 @@
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.Button.Primary"
+        parent="Base.Widget.AppCompat.Button">
+
+        <item name="colorButtonNormal">#D4B211</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
 
 </resources>
