@@ -1,5 +1,6 @@
 package com.hedtrot.perspective;
 
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -23,5 +24,10 @@ public class Autorama extends AppCompatActivity {
         //}
         //intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         //context.startActivity(intent);
+    }
+    public void Test(){
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.setComponent(new ComponentName("com.hedtrot.perspective","com.hedtrot.perspective.Main"));
+        startActivity(intent);
     }
 }

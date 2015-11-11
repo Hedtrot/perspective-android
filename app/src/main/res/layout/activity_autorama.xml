@@ -25,5 +25,5 @@
         android:theme="@style/AppTheme.Button.Primary"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
-        android:onClick="New(this, &quot;com.whatsapp&quot;)" />
+        android:onClick="Test" />
 </RelativeLayout>
