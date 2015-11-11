@@ -26,8 +26,7 @@ public class Autorama extends AppCompatActivity {
         //context.startActivity(intent);
     }
     public void Test(){
-        Intent intent = new Intent(Intent.ACTION_MAIN);
-        intent.setComponent(new ComponentName("com.hedtrot.perspective","com.hedtrot.perspective.Main"));
-        startActivity(intent);
+        Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.whatsapp");
+        startActivity(launchIntent);
     }
 }
