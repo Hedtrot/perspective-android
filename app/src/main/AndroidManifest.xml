@@ -21,6 +21,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".Autorama" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- Will open URIs that begin with "hedtrot://autorama" --><!-- em tese-->
+                <data android:scheme="hedtrot"
+                    android:host="autorama" />
+            </intent-filter>
         </activity>
         <activity android:name=".Card" >
         </activity>
