@@ -50,7 +50,7 @@
             app:cardUseCompatPadding="true">
             <include layout="@layout/activity_lab"></include>
         </android.support.v7.widget.CardView>
-        <android.support.v7.widget.CardView
+        <!--<android.support.v7.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardUseCompatPadding="true">
@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             app:cardUseCompatPadding="true">
             <include layout="@layout/activity_lab"></include>
-        </android.support.v7.widget.CardView>
+        </android.support.v7.widget.CardView>-->
     </LinearLayout>
     </ScrollView>
     <![CDATA[

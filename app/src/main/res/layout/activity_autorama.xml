@@ -18,12 +18,12 @@
         android:textColor="#FFFFFF"
         android:layout_alignParentEnd="true" />
     <Button
-        android:id="@+id/open"
+        android:id="@+id/autorama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button1"
         android:theme="@style/AppTheme.Button.Primary"
         android:layout_below="@+id/textView"
         android:layout_alignParentStart="true"
-        android:onClick="New" />
+        android:onClick="Open" />
     </RelativeLayout>
